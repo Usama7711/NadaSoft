@@ -1,0 +1,57 @@
+@media all and (max-width : 991px) {
+    .contacin_body{
+        .heading{
+            font-size: 40px;
+        }
+    } 
+    
+    .Section-2{
+        padding: 40px !important;
+    }
+    .Ready_to_take_heading{
+        font-size: 22px !important;
+    }   
+}
+@media all and (max-width:500px) {
+    .Laser_trit{
+        margin-top: 10px;
+        img{
+            height: 250px !important;
+            width: 250px !important;
+        }
+    }
+}
+@media all and (max-width : 768px) {
+    .contacin_body{
+        .heading{
+            font-size: 20px;
+            line-height: normal;
+        }
+    } 
+    .ResponsiveNone{
+        display: none;
+    }
+    .innerBody{
+        padding: 20px !important;
+    }
+    .Section-2{
+        padding: 50px 10px !important;
+        clip-path: polygon(0 5%, 100% 0%, 100% 95%, 0% 100%) !important;
+    }
+    .Ready_to_take{
+        padding: 0 !important;
+    }
+    #resposiveImage{
+        margin-top: 30px;
+        text-align: center !important;
+    }
+    .backSection{
+        clip-path: polygon(0 0, 100% 0%, 100% 89%, 0% 100%) !important;
+    }
+     .main_btn button{
+        padding: 10px 10px !important;
+    }
+    .Ready_to_take_heading{
+        font-size: 22px !important;
+    }   
+}

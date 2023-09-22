@@ -1,0 +1,261 @@
+.landigSection {
+    .backSection {
+        height: 100vh;
+        background-image: url(../images/dachboard_Back.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        clip-path: polygon(0 0, 100% 0%, 100% 73%, 0% 100%);
+        object-position: 90% 40%;
+        // top: o;
+        // left: 0;
+        // right: 0;
+        // img{
+        //     width: 100%;
+        //     height: 100vh;
+        //     object-fit: cover;
+        //     object-position: 90% 40%;
+        //     clip-path: polygon(0 0, 100% 0%, 100% 73%, 0% 100%);
+        // }
+    }
+}
+
+.navbar {
+    .collapse {
+        justify-content: end;
+    }
+
+    .navbar-brand {
+        font-size: 28px;
+        letter-spacing: 5px;
+    }
+
+    a {
+        color: white;
+    }
+}
+
+.contacin_body {
+    height: calc(100vh - 90px);
+    color: white;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+
+    .subheading {
+        font-size: 15px;
+    }
+
+    .heading {
+        font-size: 50px;
+        line-height: 60px;
+        font-weight: bold;
+    }
+
+    .main_btn {
+        button {
+            padding: 10px 30px;
+            border: none;
+            color: black;
+            background-color: rgb(185, 185, 185);
+            margin-top: 20px;
+            transition: 0.2s;
+
+            &:hover {
+                background-color: white;
+            }
+        }
+    }
+
+    .Hexagon_Img {
+        height: 300px;
+        position: relative;
+        bottom: 0px;
+        z-index: 429;
+    }
+}
+
+.Choose_Laser {
+    color: black;
+    background-color: rgb(235, 235, 235);
+    padding: 20px 0;
+
+    .innerBody {
+        padding: 10px 50px;
+    }
+
+    .heading {
+        padding: 0 20px;
+        font-size: 32px;
+        font-weight: bold;
+        color: rgb(72, 72, 72);
+    }
+
+    .Choose_Heading {
+        font-size: 20px;
+        color: rgb(72, 72, 72);
+    }
+
+    .Choose_details {
+        font-size: 16px;
+        color: rgb(72, 72, 72);
+    }
+
+    .indicator {
+        margin-right: 10px;
+
+        img {
+            height: 10px;
+            width: 10px;
+        }
+    }
+
+    .Section-2 {
+        background-color: #071329;
+        height: 100vh;
+        width: 100%;
+        clip-path: polygon(0 17%, 100% 0%, 100% 73%, 0% 100%);
+        padding: 40px 0px 40px 40px;
+        display: flex;
+        align-items: center;
+
+        .Ready_to_take_heading {
+            font-size: 32px;
+            font-weight: bold;
+            color: rgb(220, 220, 220);
+        }
+
+        .Ready_to_take {
+            color: white;
+            font-size: 14px;
+            padding: 0 30px;
+        }
+
+        .main_btn {
+            button {
+                padding: 10px 30px;
+                border: none;
+                color: black;
+                background-color: rgb(185, 185, 185);
+                margin-top: 20px;
+                transition: 0.2s;
+
+                &:hover {
+                    background-color: white;
+                }
+            }
+        }
+
+        .Laser_trit {
+            img {
+                width: 450px;
+                height: auto;
+            }
+        }
+    }
+
+    .bottom_Section {
+        margin: 40px;
+        padding-bottom: 40px;
+        border-bottom: 1px solid grey;
+
+        .mapSection {
+            iframe {
+                width: 100%;
+                height: 200px;
+            }
+        }
+
+        .addressSection_heading {
+            font-size: 16px;
+            font-weight: bolder;
+            color: rgb(72, 72, 72);
+            margin-bottom: 15px;
+        }
+
+        .address {
+            font-size: 14px;
+            color: rgb(72, 72, 72);
+        }
+
+        .socialMedia {
+            img {
+                border: 1px solid grey;
+                padding: 8px;
+                cursor: pointer;
+                border-radius: 50%;
+                margin-right: 20px;
+            }
+        }
+    }
+
+    .Footer_Section {
+        padding: 40px;
+
+        .FooterLogo {
+            font-size: 28px;
+            letter-spacing: 5px;
+            font-weight: bold;
+        }
+        .CopyRight{
+            font-size: 14px;
+        }
+        .FooterHading{
+            font-size: 18px;
+            font-weight: bold;
+            color: grey;
+            margin-bottom: 10px;
+        }
+        .FooterList{
+            padding: 0;
+            list-style-type: none;
+            li{
+                margin-bottom: 7px;
+                color: rgb(75, 75, 75);
+                font-size: 15px;
+            }
+        }
+        .emailinput{
+            border: 1px solid grey;
+            background-color: white;
+            display: flex;
+            border-radius: 10px;
+            align-items: center;
+            padding: 5px 2px;
+            input{
+                width: 94%;
+                border: none;
+                &:focus{
+                    box-shadow: none;
+                    outline: none;
+                }
+            }
+            img{
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 70px;
+    background-color: transparent;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: transparent;
+    border-radius: 70px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #0b1e41;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #071329;
+}
